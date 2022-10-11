@@ -172,17 +172,17 @@ class  ArrayList implements ListADT
 
 	public boolean SeqSearchWithSentinel( Object key )
 	{
-		//boolean found=false;
 		int i = 0;
-		while (list[i] != key)
-			i++;
-		if (i<total){
-			current = i;
-			return true;
-		}
-		else{
-			return false;
-		}
+        	list[size] = key;
+        	while (list[i] != key){
+           		i++;
+       		}
+        	if (i < size) {
+		    current = i;
+		    return true;
+		}else{
+		    return false;
+        }
 			
 	}
 	

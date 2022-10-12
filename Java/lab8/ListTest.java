@@ -115,7 +115,7 @@ class ListTest
 						}
 
 						}catch(Exception ex){
-							JOptionPane.showInternalMessageDialog(null, ex.getMessage());
+							JOptionPane.showMessageDialog(null, ex.getMessage());
 						}
 
 						// list.Sort();

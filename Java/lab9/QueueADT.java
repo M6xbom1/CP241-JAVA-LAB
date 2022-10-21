@@ -6,7 +6,7 @@ interface QueueADT<E> {
 
     public E front() throws Exception;
 
-    public boolean Empty();
+    public boolean isEmpty();
 
     public boolean isFull();
 
